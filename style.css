@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #eef2f3, #d9e4f5);
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(135deg, #0044cc, #00aaff);
+    color: white;
+}
+
+.logo {
+    width: 100px;
+}
+
+/* MENU BOTÕES */
+.menu {
+    background: #002b80;
+    padding: 15px;
+    text-align: center;
+}
+
+.btn-menu {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #0044cc, #00aaff);
+    transition: 0.3s;
+}
+
+.btn-menu:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #00aaff, #0044cc);
+    box-shadow: 0 0 10px #00aaff;
+}
+
+/* BANNER */
+.banner {
+    background: url("imagem.jpg") center/cover;
+    height: 320px;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #00aaff;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* CARDS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* CONTACTO */
+.box {
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 15px;
+    background: white;
+}
+
+/* FORM */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 10px;
+    padding: 12px;
+    background: #0044cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #002b80;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px;
+    background: #25D366;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0044cc;
+    color: white;
+    margin-top: 30px;
+}
